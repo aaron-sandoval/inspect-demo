@@ -25,11 +25,12 @@ Demos for the Inspect AI library
 
 4. **Install Inspect AI VSCode extension (optional but recommended)**
    
-   Install the Inspect AI extension for VSCode to get syntax highlighting and IntelliSense support:
+   Install the Inspect AI extension for VSCode to get the Inspect log viewer:
    - Open VSCode
    - Go to Extensions (Ctrl+Shift+X)
    - Search for "Inspect AI"
    - Click Install
+   - Restart extensions
 
 5. **Create environment file**
    
