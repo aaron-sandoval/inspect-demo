@@ -23,7 +23,15 @@ Demos for the Inspect AI library
    uv sync
    ```
 
-4. **Create environment file**
+4. **Install Inspect AI VSCode extension (optional but recommended)**
+   
+   Install the Inspect AI extension for VSCode to get syntax highlighting and IntelliSense support:
+   - Open VSCode
+   - Go to Extensions (Ctrl+Shift+X)
+   - Search for "Inspect AI"
+   - Click Install
+
+5. **Create environment file**
    
    Create a `.env` file in the root directory:
    ```bash
