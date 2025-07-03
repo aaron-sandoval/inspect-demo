@@ -1,3 +1,5 @@
+from pathlib import Path
+
 from inspect_ai import Task, task, eval
 from inspect_ai.dataset import example_dataset
 from inspect_ai.scorer import model_graded_fact
@@ -20,7 +22,7 @@ def security_guide():
 
 if __name__ == "__main__":
     model = "openai/gpt-4o-mini"
-    log_dir = "logs"
-    result = eval(security_guide(), model=model, log_dir=log_dir)
+    log_dir = Path("inspect-demo") / "logs"
+    result = eval(security_guide(), model=model, log_dir=str(log_dir))
     print("Done!")
     
